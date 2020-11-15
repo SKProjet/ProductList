@@ -7,10 +7,18 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './pages/home/home.component';
+import { DetailsComponent } from './pages/details/details.component';
+import { CreateComponent } from './pages/create/create.component';
+import { UpdateComponent } from './pages/update/update.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    DetailsComponent,
+    CreateComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,
