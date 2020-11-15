@@ -1,0 +1,12 @@
+{    
+    "products": [
+		{
+		 "id":"1",
+		 "name":"table",
+		 "description":"table solide",
+		 "price":"10€",
+		 "imageUrl":"",
+		 "quantity":"2"
+		}
+	]
+}
